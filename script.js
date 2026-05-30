@@ -9,7 +9,7 @@ const START_MINUTE = 30;   // 0-59
 const START_SECOND = 37;    // 0-59
 // ==========================================
 
-function updateTimer() {
+/*function updateTimer() {
   const now = new Date(
     new Date().toLocaleString("en-US", { timeZone: "America/Chicago" })
   );
@@ -64,6 +64,7 @@ function updateTimer() {
 
 updateTimer();
 setInterval(updateTimer, 1000);
+*/
 
 // ==========================================
 // FLOATING HEARTS
